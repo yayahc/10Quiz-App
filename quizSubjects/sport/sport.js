@@ -1,11 +1,11 @@
 const quizData = [
 	{
-		question: "who is Marshmallo ?",
-		a: "guitarist",
-		b: "bateri-man",
-		c: "singer",
-		d: "instru-maker",
-		correct: "d",
+		question: "what's best african player for 2020 ?",
+		a: "Salah",
+		b: "Ronaldo",
+		c: "Drogba",
+		d: "Mane",
+		correct: "a",
 	},
 	{
 		question: "what is the most used programming language in 2021 ?",
