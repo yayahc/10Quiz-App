@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url("quiz.jpg");
+    background-size: cover;
+	align-items: center;
+	justify-content: center;
+	font-family: "Poppins",sans-serif;
+	padding: 1.5rem;
+	margin: 0;
+	min-height: 100vh;
+}
+.quiz-container{
+	background-color: #fff;
+	opacity: 0.9;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+	overflow: hidden;
+	border-color: #1877e4;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.quiz-header{
+	opacity: 0.9;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 14rem;
+}
+
+.quiz {
+    background-color: #1877e4;
+	text-align: center;
+    color: white;
+	display: block;
+	font-family: "Poppins",sans-serif;
+	font-size: 2.0rem;
+	width: 100%;
+	padding: 0.5rem;
+}
+
+
+/*  one by one quiz lol :) */
+.cinema{
+	overflow: hidden;
+	border-radius: 20px;
+	border: 2px solid #1877e4;
+	width: 25%;
+	position: fixed;
+	top: 140px;
+	left: 90px;
+}
+button{
+	color: #fff;
+	background-color: #1877e4;
+	border: none;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 1.1rem;
+	width: 100%;
+	padding: 0.5rem;
+}
+.developpement{
+	overflow: hidden;
+	border-radius: 20px;
+	border: 2px solid #1877e4;
+	width: 25%;
+	position: fixed;
+	top: 140px;
+	left: 510px;
+}
+.gamming{
+	overflow: hidden;
+	border-radius: 20px;
+	border: 2px solid #1877e4;
+	width: 25%;
+	position: fixed;
+	top: 140px;
+	left: 930px;	
+}
+.history{
+	overflow: hidden;
+	border-radius: 20px;
+	border: 2px solid #1877e4;
+	width: 25%;
+	position: fixed;
+	top: 300px;
+	left: 90px;
+}
+.lifestyle{
+	overflow: hidden;
+	border-radius: 20px;
+	border: 2px solid #1877e4;
+	width: 25%;
+	position: fixed;
+	top: 300px;
+	left: 510px;	
+}
+.litterature{
+	overflow: hidden;
+	border-radius: 20px;
+	border: 2px solid #1877e4;
+	width: 25%;
+	position: fixed;
+	top: 300px;
+	left: 930px;
+}
